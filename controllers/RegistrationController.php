@@ -55,6 +55,9 @@ class RegistrationController extends \yii\web\Controller
         if(!empty($tokenId) && !empty($tokenCode)) {
             $user = new User();
             if ($user->create($tokenId, $tokenCode)) {
+
+                Yii::$app->session->setFlash('success', Yii::t('app', 'The password has been sent to your email.'));
+                
                 return $this->redirect('/profile/index', 302);
             } else {
                 return $this->render('/message', [

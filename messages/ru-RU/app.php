@@ -15,6 +15,7 @@ return [
     'Here you can change the user\'s data' => 'Здесь можно изменить данные пользователя',
     'Your account details have been updated' => 'Данные учётной записи были обновлены',
     'Reset password' => 'Сбросить пароль',
-    'Check your email. We send you a link to confirm.' => 'Проверьте свою почту. Мы выслали вам ссылку для подтверждения.'
+    'Check your email. We send you a link to confirm.' => 'Проверьте свою почту. Мы выслали вам ссылку для подтверждения.',
+    'The password has been sent to your email.' => 'Пароль был выслан вам на почту.',
 
 ];
